@@ -26,5 +26,22 @@ namespace Tutti_Fruiti_Web.Controllers
 
             return View();
         }
+
+        public ActionResult Flavours()
+        {
+            ViewBag.Message = "Your Flavours page.";
+
+            return View();
+        }
+
+       public ActionResult FindUs()
+        {
+            ViewBag.Message = "FindUs";
+
+            return View();
+        }
+
+
+
     }
 }
